@@ -24,8 +24,19 @@
     
     
     
-	<a href="login.jsp"> <input type="button" value="Log out"> </a>
+	<a href="login.jsp"> <input type="button" value="Log out"> </a><br>
 	
+	
+<pre>
+      |\      _,,,---,,_
+ZZZzz /,`.-'`'    -.  ;-;;,_
+     |,4-  ) )-,_. ,\ (  `'-'
+    '---''(_/--'  `-'\_)
+</pre>
+	
+	
+	
+   
 	
 	
 
