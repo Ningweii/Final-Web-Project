@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>User page</title>
 </head>
 <body bgcolor="AntiqueWhite">
 
@@ -19,7 +19,7 @@
 	
 	<details>
     <summary><i></>Details about your life</i></summary>
-    You like swimming and eating khinkali. That's all.
+    You like swimming and khinkali. That's all.
     </details> <br>
     
     Do you want to calculate your BMI? (Body Mass Index) <a href="bmicalc.jsp">BMI calculator</a><br>

@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<title>Videos</title>
 </head>
 <body bgcolor="AntiqueWhite">
 	<h3>You are on a videos page!</h3><br><hr>
