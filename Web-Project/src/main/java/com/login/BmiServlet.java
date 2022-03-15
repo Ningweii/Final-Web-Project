@@ -31,7 +31,7 @@ public class BmiServlet extends HttpServlet{
 		else if(bmiToDouble > 18.5 && bmiToDouble <= 24.9)
 			out.print("You're perfectly fine as you are!");
 		else if(bmiToDouble > 24.9 && bmiToDouble <= 29.9)
-			out.print("You need to loose some weight!");
+			out.print("You need to lose some weight!");
 		else out.print("You are obese. You probably didn't know that, right...");
 		
 	}
