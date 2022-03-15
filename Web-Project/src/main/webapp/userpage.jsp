@@ -22,6 +22,7 @@
     You like swimming and eating khinkali. That's all.
     </details> <br>
     
+    Do you want to calculate your BMI? (Body Mass Index) <a href="bmicalc.jsp">BMI calculator</a><br><br>
     
     
 	<a href="login.jsp"> <input type="button" value="Log out"> </a><br>
