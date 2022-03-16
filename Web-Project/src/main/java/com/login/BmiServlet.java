@@ -26,9 +26,9 @@ public class BmiServlet extends HttpServlet{
 		
 		out.println("Your BMI is " + bmiToDouble);
 		
-		if(bmiToDouble <= 18.5) 
+		if(bmiToDouble < 18.5) 
 			out.print("You're too skinny. Go grab some food immeadiately.");
-		else if(bmiToDouble > 18.5 && bmiToDouble <= 24.9)
+		else if(bmiToDouble >= 18.5 && bmiToDouble <= 24.9)
 			out.print("You're perfectly fine as you are!");
 		else if(bmiToDouble > 24.9 && bmiToDouble <= 29.9)
 			out.print("You need to lose some weight!");

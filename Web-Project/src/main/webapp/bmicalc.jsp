@@ -16,11 +16,11 @@
 			<th><b>Weight Status</b></th>
 		</tr>
 		<tr>
-			<td>Below 18</td>
+			<td>Below 18.5</td>
 			<td>Underweight</td>
 		</tr>
 		<tr>
-			<td>18.5 - 24.5</td>
+			<td>18.5 - 24.9</td>
 			<td>Healthy</td>
 		</tr>
 		<tr>
