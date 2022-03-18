@@ -5,13 +5,13 @@ import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class UsersDao {
+public class RegisterDao {
 	
 	String url = "jdbc:mysql://localhost:3306/demo_data";
 	String username = "root";
 	String password = "12345678";
 	
-	public int registerUser(User user) throws ClassNotFoundException {																															
+	public int registerUser(UserBean user) throws ClassNotFoundException {																															
 		String insert_users_sql = "INSERT INTO users" + "(name, surname, username, password, profession) VALUES" +
 								   "(?, ?, ?, ?, ?);";
 		

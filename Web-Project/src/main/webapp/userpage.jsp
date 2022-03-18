@@ -8,6 +8,11 @@
 </head>
 <body bgcolor="AntiqueWhite">
 
+	<%
+		if(session.getAttribute("username") == null) {
+			response.sendRedirect("login.jsp");
+		}
+	%>
 
 
 	<h3>Wellcome ${username}!</h3>
@@ -25,7 +30,9 @@
     Do you want to calculate your BMI? (Body Mass Index) <a href="bmicalc.jsp">BMI calculator</a><br>
     Do you want to watch some videos? <a href="videos.jsp">Videos</a><br><br>
     
-	<a href="login.jsp"> <input type="button" value="Log out"> </a><br>
+	<form action="logout">
+		<input type="submit" value="Logout">
+	</form>
 	
 	
 <pre>

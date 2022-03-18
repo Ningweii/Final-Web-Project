@@ -2,7 +2,7 @@ package com.login;
 
 import javax.servlet.http.HttpSession;
 
-public class User {
+public class UserBean {
 	private String username;
 	private String password;
 	private String name;

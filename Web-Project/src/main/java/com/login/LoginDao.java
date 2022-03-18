@@ -1,4 +1,4 @@
-package com.login.dao;
+package com.login;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -12,7 +12,7 @@ public class LoginDao {
 	String username = "root";
 	String password = "12345678";
 	
-	public boolean check(String uname, String pass) {									
+	public boolean isValid(String uname, String pass) {									
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
 			Connection con = DriverManager.getConnection(url, username, password);
@@ -20,11 +20,9 @@ public class LoginDao {
 			st.setString(1, uname);
 			st.setString(2, pass);
 			ResultSet rs = st.executeQuery(); 
-			if(rs.next()) {
-				return true;
-			}
+			if(rs.next()) return true;
 			
-		} catch (Exception e) {
+		} catch (Exception e) { 
 			e.printStackTrace();
 		}
 		

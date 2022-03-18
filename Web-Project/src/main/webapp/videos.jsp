@@ -7,6 +7,12 @@
 <title>Videos</title>
 </head>
 <body bgcolor="AntiqueWhite">
+
+	<%
+		if(session.getAttribute("username") == null) {
+			response.sendRedirect("login.jsp");
+		}
+	%>
 	<h3>You are on a videos page!</h3><br><hr>
 	<a href="https://www.youtube.com/watch?v=ScDb9EHYh88">A song about New Year</a><br>
 	<a href="https://www.youtube.com/watch?v=wiiMAq13-ZI">Passionate song</a><br>

@@ -8,6 +8,12 @@
 </head>
 <body bgcolor="AntiqueWhite">
 	
+	<%
+		if(session.getAttribute("username") != null){
+			
+		response.sendRedirect("userpage.jsp");
+		}
+	%>
 	
 	
 	<form action="Login">

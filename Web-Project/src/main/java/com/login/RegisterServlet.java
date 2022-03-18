@@ -12,10 +12,10 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 @WebServlet("/Register")
-public class Register extends HttpServlet {
+public class RegisterServlet extends HttpServlet {
 	
-	private UsersDao usersDao = new UsersDao();
-	User user = new User();
+	private RegisterDao registerDao = new RegisterDao();
+	UserBean user = new UserBean();
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {														
 	
@@ -28,7 +28,6 @@ public class Register extends HttpServlet {
 		
 		if(password.equals(passwordRepeat)) {
 			
-			User user = new User();
 			user.setUsername(username);
 			user.setPassword(password);
 			user.setName(name);
@@ -45,7 +44,7 @@ public class Register extends HttpServlet {
 
 			
 			try {
-				usersDao.registerUser(user);
+				registerDao.registerUser(user);
 			} catch (ClassNotFoundException e) {
 				e.printStackTrace();
 			}

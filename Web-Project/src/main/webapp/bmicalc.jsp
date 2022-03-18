@@ -7,6 +7,11 @@
 <title>BMI calculator</title>																				
 </head>
 <body bgcolor="AntiqueWhite">
+	<%
+		if(session.getAttribute("username") == null) {
+			response.sendRedirect("login.jsp");
+		}
+	%>
 
 	<h3>Submit your weight and height to calculate your bmi! (<i>submit in kg and cm</i>)</h3><hr>
 			
