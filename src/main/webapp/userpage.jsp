@@ -23,7 +23,7 @@
 	Your password is: <b> ${password} </b> <br> <br>
 	
 	<details>
-    <summary><i></>Details about your life</i></summary>
+    <summary><i>Details about your life</i></summary>
     You like swimming and khinkali. That's all.
     </details> <br>
     

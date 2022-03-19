@@ -5,7 +5,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.mysql.cj.Session;
+//import com.mysql.cj.Session;
 
 import java.io.PrintWriter;
 import java.io.IOException;
