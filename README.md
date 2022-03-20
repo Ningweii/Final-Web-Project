@@ -1,7 +1,7 @@
 # Final-Web-Project
 
 This is a basic java CRUD (Create Read Update Delete) web application. 
-It was written in Eclipse EE and it implements Apache Tomcan and MySQL techlonogies.
+It was written in Eclipse EE and it implements Apache Tomcat and MySQL techlonogies.
 
 This web application let's user to register, log in and log out.
 It has three main pages: 'login page', 'register page', and 'user page'. 
