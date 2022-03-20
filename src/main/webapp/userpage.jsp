@@ -28,7 +28,8 @@
     </details> <br>
     
     Do you want to calculate your BMI? (Body Mass Index) <a href="bmicalc.jsp">BMI calculator</a><br>
-    Do you want to watch some videos? <a href="videos.jsp">Videos</a><br><br>
+    Do you want to watch some videos? <a href="videos.jsp">Videos</a><br>
+    Or maybe you want to convert miles into km and vice versa? <a href="length.jsp">Length converter</a>
     
 	<form action="logout">
 		<input type="submit" value="Logout">
