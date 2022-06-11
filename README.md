@@ -3,7 +3,7 @@
 This is a basic java CRUD (Create Read Update Delete) web application. 
 It was written in Eclipse EE and it implements Apache Tomcat and MySQL techlonogies.
 
-This web application let's user to register, log in and log out.
+This web application lets user to register, log in and log out.
 It has three main pages: 'login page', 'register page', and 'user page'. 
 User page is a protected page. As well as couple other pages. 
 Since user page is a protected page, you won't be able to access it directly without logging in. 
